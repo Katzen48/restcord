@@ -1419,6 +1419,11 @@
                         "type": "snowflake",
                         "location": "uri",
                         "required": true
+                    },
+                    "topic": {
+                        "type": "string",
+                        "description": "0-1024 character channel topic (0-4096 characters for GUILD_FORUM channels)",
+                        "location": "json"
                     }
                 },
                 "parametersArray": false
